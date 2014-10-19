@@ -20,4 +20,9 @@ public class Tester {
 		
 		return pass;
 	}
+	
+	public static boolean testOpposite(boolean fail){
+		
+		return ! test(fail);
+	}
 }

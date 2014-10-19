@@ -21,5 +21,12 @@ public class TestRandom {
 		assertTrue(Tester.test(true));
 		assertFalse(Tester.test(false));
 	}
+	
+	@Test
+	public void oppositeTesterTest(){
+		
+		assertTrue(Tester.testOpposite(false));
+		assertFalse(Tester.testOpposite(true));
+	}
 
 }
